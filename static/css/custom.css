@@ -19,10 +19,3 @@ body {
 .content {
   flex: 1 0 auto;
 }
-
-footer {
-  height: 200px;
-  background-color: black;
-  flex-shrink: 0;
-  bottom: 0;
-}

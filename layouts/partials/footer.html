@@ -1,0 +1,28 @@
+{{ $style := resources.Get "style/footer.scss" | toCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
+    
+<footer>
+	<div class="container">
+		<div class="row">
+		  <div class="col-sm">	<!-- Contact information -->
+		  	<ul>
+					<li>ETA Chalmers</li>
+					<li>Rännvägen 4</li>
+					<li>412 96 Göteborg</li>
+					<br>
+					<li>eta@eta.chalmers.se</li>
+					<li>031-20 78 60</li>
+					<li>802413-7963</li>
+				</ul> 
+		  </div>
+		  <div class="col-sm">	<!-- Chs logo -->
+		    	<div class="chs-logo">
+						<a href="https://chalmersstudentkar.se/">
+							<img src="/img/ChS_logo.svg" alt="Chalmers Studentkår"> 
+						</a>
+					</div>
+		  </div>
+		</div>
+	</div>
+
+</footer>
